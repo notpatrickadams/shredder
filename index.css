@@ -1,0 +1,26 @@
+body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+    min-width: 600px;
+    min-height: 400px;
+
+    -webkit-app-region: drag;                    
+}
+
+.dragarea {
+    border: dotted #444444 1px;
+    border-radius: 5px;
+    width: 80vw;
+    height: 30vh;
+    margin: 2% 0 2% 0;
+    align-items: center;
+}
+
+.btn {
+    -webkit-app-region: no-drag;
+}
